@@ -2980,3 +2980,48 @@ body #header{
 
 
 	}
+
+	.navbar {
+	position: fixed;
+    top: 0px;
+    width: 100%;
+	 z-index: 999;
+	
+}
+
+.navbar ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+	  text-align: center;
+   background-color: white;
+}
+
+.navbar li {
+	display: inline-block;
+	
+
+}
+
+li a {
+    display: block;
+    color: black;
+    text-align: center;
+    padding: 5px 5px;
+    text-decoration: none;
+}
+
+/* Change the link color to #111 (black) on hover */
+li a:hover {
+    background-color: #EEE;
+	cursor: pointer;
+}
+
+.middleline {
+	 width: 5em; 
+   text-align: center; 
+   border-bottom: 1px solid #000; 
+   line-height: 0.1em;
+   margin: 0 0 4px; 
+}

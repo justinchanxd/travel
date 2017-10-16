@@ -186,7 +186,7 @@
 				// Scrollex.
 					options = {
 						mode: 'middle',
-						delay: 200,
+						delay: 100,
 						top: '-10vh',
 						bottom: '-10vh'
 					};

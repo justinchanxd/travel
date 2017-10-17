@@ -480,8 +480,10 @@ body, input, select, textarea {
 }
 
 .thumbnail p{
+	text-align: left;
 	line-height: 1.3em;
-	font-family: "Times New Roman", Times, serif;
+	font-size: 0.9em;
+	font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
 	border: 1px solid grey;
 	display: block;
 	height: auto;

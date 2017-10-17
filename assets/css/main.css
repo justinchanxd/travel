@@ -3025,3 +3025,7 @@ li a:hover {
    line-height: 0.1em;
    margin: 0 0 4px; 
 }
+
+.scroll-down {
+	color: black;
+}

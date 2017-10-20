@@ -226,3 +226,12 @@ $(function() {
     $('html, body').animate({ scrollTop: $($(this).attr('href')).offset().top}, 500, 'linear');
   });
 });
+
+//navbar places onclick show submenu
+function placesOnClick(){
+	var menuplaces =document.getElementById('menuPlaces');
+	menuplaces.classList.toggle("placeColor");
+	var subplaces = document.getElementById("subPlaces");
+	subplaces.classList.toggle("placeShow");
+
+}

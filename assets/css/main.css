@@ -3018,33 +3018,27 @@ body #header{
     background-color: #EEE;
 	cursor: pointer;
 }
-#work:hover {
-	background-color: #000;
-}
 
 .navbar ul ul
 {
-	display:none;
-	
+ 	display:none; 
 	position:absolute;
 	top:100%;
 	left: 50%;
 	transform: translate(-50%,0%);
-	background:#fff;
+	background:#EEEEEE;
 	padding:0
 }
 
-.navbar ul ul li
-{
-	position: relative;
-	background-color: #555555;
+.navbar ul ul li {
+	background-color: #DDD;
 	float:left;
 	width:100%:
 }
 
 .navbar ul ul a
 {
-	color: white;
+	color: black;
 	line-height:120%;
 	padding:10px 15px
 }
@@ -3053,6 +3047,16 @@ body #header{
 {
 	display:block;
 }
+
+.placeColor{
+	background-color: #DDD;
+	display: block;
+}
+
+.placeShow{
+	display: block !important;
+}
+
 .middleline {
 	 width: 5em; 
    text-align: center; 
@@ -3063,7 +3067,4 @@ body #header{
 
 .scroll-down {
 	color: black;
-}
-
-
 }

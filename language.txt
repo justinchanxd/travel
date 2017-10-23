@@ -1,0 +1,15 @@
+Home		主頁	
+Places		地點	
+Shanghai	上海
+Osaka		大阪
+London		倫敦
+About		關於作者
+Contact		聯絡我們
+Travel Log	旅行日誌
+Start the journey	開始旅程
+A guy from Hong Kong who shares his memories.	一個來自香港的男孩,寫下到訪過的地方的體會
+Back to top	回到頁首
+Namw		名字
+Email		聯絡電郵 (選填)
+Message		訊息 (意見, 下一站提議?)
+-----------------------------------------

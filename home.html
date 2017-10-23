@@ -17,13 +17,13 @@
 	<body>
 		<section class="navbar">
 			<ul>
-    	<li><a href="#header" class="scroll-down" address="true">Home</a></li>
+    	<li><a href="#header" class="scroll-down home" address="true">Home</a></li>
     	<li class="middleline"></li>
-    	<li id="menuPlaces"><a onclick="placesOnClick()">Places</a>
+    	<li class="places" id="menuPlaces"><a onclick="placesOnClick()">Places</a>
 			<ul id="subPlaces">
-				<li><a href="#">Shanghai</a></li>
-				<li><a href="#">Osaka</a></li>
-				<li><a href="#">London</a></li>
+				<li><a href="#sh">Shanghai</a></li>
+				<li><a href="#osaka">Osaka</a></li>
+				<li><a href="#ld">London</a></li>
 			</ul>
     	</li>
     	<li class="middleline"></li>
@@ -35,8 +35,8 @@
 		<!-- Header -->
 
 			<section id="header">
-				<h1><span>Travel Log</span></h1>
-				<p><span>Every memorable moment</span> </p>
+				<h1><span>Travel<br> Log</span></h1>
+				<!-- <p><span>Every memorable moment</span> </p> -->
 				<div class="container">
 					<ul class="actions">
 						<li><a href="#sh" class="button special scrolly">Start the journey</a></li>
@@ -55,25 +55,10 @@
 						<p>Aliquam ante ac id. Adipiscing interdum lorem praesent fusce pellentesque arcu feugiat. Consequat sed ultricies rutrum. Sed adipiscing eu amet interdum lorem blandit vis ac commodo aliquet integer vulputate phasellus lorem ipsum dolor lorem magna consequat sed etiam adipiscing interdum.</p>
 					</div>
 					<!-- <a href="#two" class="goto-next scrolly">Next</a> -->
-					<a class="btnEnter" href="sh.html"></a>
+					<a class="btnEnter" href="shanghai_en.html"></a>
 
 				</div>
 			</section>
-
-
-
-			<!-- <section id="one" class="main special">
-				<div class="container">
-					<span class="image fit primary"><img src="images/sp.jpg" alt="" /></span>
-					<div class="content">
-						<header class="major">
-							<h2>Singapore 2017</h2>
-						</header>
-						<p>Aliquam ante ac id. Adipiscing interdum lorem praesent fusce pellentesque arcu feugiat. Consequat sed ultricies rutrum. Sed adipiscing eu amet interdum lorem blandit vis ac commodo aliquet integer vulputate phasellus lorem ipsum dolor lorem magna consequat sed etiam adipiscing interdum.</p>
-					</div>
-					<a class="btnEnter" href="#"></a>
-				</div>
-			</section> -->
 
 	<section id="osaka" class="main special">
 				<div class="container">
@@ -84,7 +69,7 @@
 						</header>
 						<p>Aliquam ante ac id. Adipiscing interdum lorem praesent fusce pellentesque arcu feugiat. Consequat sed ultricies rutrum. Sed adipiscing eu amet interdum lorem blandit vis ac commodo aliquet integer vulputate phasellus lorem ipsum dolor lorem magna consequat sed etiam adipiscing interdum.</p>
 					</div>
-					<a class="btnEnter" href="osaka.html"></a>
+					<a class="btnEnter" href="osaka_en.html"></a>
 				</div>
 			</section>
 
@@ -97,7 +82,7 @@
 						</header>
 						<p>Aliquam ante ac id. Adipiscing interdum lorem praesent fusce pellentesque arcu feugiat. Consequat sed ultricies rutrum. Sed adipiscing eu amet interdum lorem blandit vis ac commodo aliquet integer vulputate phasellus lorem ipsum dolor lorem magna consequat sed etiam adipiscing interdum.</p>
 					</div>
-					<a class="btnEnter" href="ld.html"></a>
+					<a class="btnEnter" href="london_en.html"></a>
 				</div>
 			</section>
 
@@ -176,6 +161,7 @@
 			<script src="assets/js/util.js"></script>
 			<!--[if lte IE 8]><script src="assets/js/ie/respond.min.js"></script><![endif]-->
 			<script src="assets/js/main.js"></script>
+			<script src="assets/js/multi-lang.js"></script>
 
 	</body>
 </html>

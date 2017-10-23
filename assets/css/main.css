@@ -1624,7 +1624,7 @@
 
 body #header{
 	display: block;
-	padding-top:40px;
+	padding-top:150px;
 	
 	
 	
@@ -3045,7 +3045,7 @@ body #header{
 
 .navbar ul li:hover > ul
 {
-	display:block;
+/* 	display:block; */
 }
 
 .placeColor{

@@ -182,7 +182,7 @@
 	}
 /*basic */
 #sh {
-		background-image:url("../../images/sh.jpg");
+		background-image:url("../../images/sh.jpg") !important;
 
 }
 #osaka {

@@ -1648,7 +1648,7 @@ body #header{
 
 		/* Main BG */
 		html{
-			background-image: url("../../images/pic02.jpg")
+			background-image: url("../../images/pic02.jpg");
 		}
 			.main-bg {
 				display: none;

@@ -182,24 +182,36 @@
 	}
 /*basic */
 #sh {
-	background-image: url("images/overlay.png"), url("../../images/sh.JPG");
+		background-image:url("../../images/sh.jpg");
+
 }
 #osaka {
-	background-image: url("images/overlay.png"), url("../../images/osaka.jpg");
+	background-image:url("../../images/osaka.jpg");
 }
 
 #ld {
-	background-image: url("images/overlay.png"), url("../../images/ld.jpg");
+	background-image:url("../../images/ld.jpg");
 }
 
+/* old one, mobile not supported
 html {
 	 background-color: #313a3d;
 		background-attachment: fixed,	fixed;
-		/*background-image:url("images/overlay.png"), url("../../images/sh.jpg");*/
+		/*background-image:url("images/overlay.png"), url("../../images/sh.jpg");
 		background-position: top left,center center;
 		background-repeat: repeat,none;
 		background-size: auto,cover;
+} */
+
+html {
+    background-color: #313a3d;
+		background-attachment:fixed;
+		background-position:center;
+		background-repeat:none;
+		background-size:cover;
 }
+
+
 a {
 		-moz-transition: color 0.2s ease-in-out, border-bottom-color 0.2s ease-in-out;
 		-webkit-transition: color 0.2s ease-in-out, border-bottom-color 0.2s ease-in-out;
@@ -453,6 +465,9 @@ h1, h2, h3, h4, h5, h6 {
           border: 1px solid grey;
 		}
 
+.btnEnter:hover {
+	background-image: url("images/overlay.png"),url("images/larr.jpg");
+}
 
 section.special, article.special {
 		text-align: center;
@@ -490,3 +505,8 @@ body, input, select, textarea {
 	height: auto;
 }
 
+@media screen and (max-width: 980px) {
+	
+	
+	
+}

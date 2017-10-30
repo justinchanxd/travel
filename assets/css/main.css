@@ -1706,7 +1706,15 @@ body #header{
 	@media screen and (max-width: 736px) {
 /* 	justin	 */
 
+		#subPlaces {
+			width: 35%;
+		}
+		#subPlaces li {
+			min-width:100%;
+		}
+
 		/* Basic */
+
 
 			h2 {
 				font-size: 1.35em;
@@ -1767,6 +1775,12 @@ body #header{
 				min-width: 320px;
 			}
 
+		#subPlaces {
+			width: 45%;
+		}
+		#subPlaces li {
+			min-width:100%;
+		}
 		/* List */
 
 			ul.actions {
@@ -1907,32 +1921,38 @@ body #header{
 	cursor: pointer;
 }
 
-.navbar ul ul
+#subPlaces
 {
  	display:none; 
 	position:absolute;
 	top:100%;
 	left: 50%;
 	transform: translate(-50%,0%);
-	background:#EEEEEE;
+	background:rgba(256,221,221,0);
 }
 
-.navbar ul ul li {
+#subPlaces li {
 	background-color: #DDD;
-	float:left;
-	width:100%:
+	float:left;	 
+		
 }
 
-.navbar ul ul a
-{
+.placeShow {
+display: block !important;
+	width: auto ;
+}
+
+#subPlaces a
+{ 
 	color: black;
 	line-height:120%;
-	padding:10px 15px
+	padding:10px 15px;
+
 }
 
-.navbar ul li:hover > ul
+$subPlaces li:hover > ul
 {
-/* 	display:block; */
+/*  	display:block;  */
 }
 
 .placeColor{
@@ -1940,10 +1960,6 @@ body #header{
 	display: block;
 }
 
-.placeShow{
-	 display: flex !important;    
-   
-}
 
 .middleline {
 	 width: 3em; 

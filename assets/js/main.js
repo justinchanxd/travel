@@ -233,5 +233,9 @@ function placesOnClick(){
 	menuplaces.classList.toggle("placeColor");
 	var subplaces = document.getElementById("subPlaces");
 	subplaces.classList.toggle("placeShow");
+	// if(subPlaces.style.display == 'block')
+	// 	subPlaces.style.display ='none';
+	//  else 
+	// subPlaces.style.display = 'block';
 
 }

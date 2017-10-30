@@ -180,6 +180,7 @@
 					$bg = $('<div class="main-bg" id="' + $this.attr('id') + '-bg"></div>')
 						.css('background-image', (
 							'url("assets/css/images/overlay.png"), url("' + $primaryImg.attr('src') + '")'
+
 						))
 						.appendTo($body);
 

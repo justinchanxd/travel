@@ -1893,7 +1893,6 @@ body #header{
     width: 100%;
 	z-index: 999;
 	display: block;
-	-webkit-transform: translate3d(0,0,0);
 
 .navbar ul {
 

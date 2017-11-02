@@ -218,7 +218,7 @@
 	}
 
 		html.is-touch #wrapper {
-			-webkit-backface-visibility: hidden;
+			/*-webkit-backface-visibility: hidden;*/
 			-webkit-overflow-scrolling: touch;
 			-webkit-transform: translate3d(0, 0, 0);
 			height: 100vh;
@@ -1087,7 +1087,7 @@ body #header{
 		}
 
 			ul.icons li {
-				display: inline-block;
+				display: block;
 				padding: 0 1.5em 0 0;
 			}
 
@@ -1143,7 +1143,7 @@ body #header{
 		}
 
 			ul.actions li {
-				display: inline-block;
+				display: block;
 				padding: 0 1em 0 0;
 				vertical-align: middle;
 			}

@@ -261,10 +261,10 @@ h1, h2, h3, h4, h5, h6 {
 		-webkit-transition: opacity 0.5s ease-out;
 		-ms-transition: opacity 0.5s ease-out;
 		transition: opacity 0.5s ease-out;
-		background-attachment: fixed,							fixed;
-		background-position: top left,						center center;
-		background-repeat: repeat,							none;
-		background-size: auto,							cover;
+		background-attachment: fixed,fixed;
+		background-position: top left,center center;
+		background-repeat: repeat,none;
+		background-size: auto,cover;
 		height: 100%;
 		left: 0;
 		opacity: 1;
@@ -463,15 +463,17 @@ h1, h2, h3, h4, h5, h6 {
           width: 50px;
           border-radius: 50%;
           border: 1px solid grey;
+					margin-top: 50px;
 		}
 
 .btnEnter:hover {
 	background-image: url("images/overlay.png"),url("images/larr.jpg");
 }
 
-section.special, article.special {
-		text-align: center;
-	}
+
+.special h2 {
+	text-align: center;
+}
 
 body, input, select, textarea {
 		color: #6f7577;
@@ -505,8 +507,93 @@ body, input, select, textarea {
 	height: auto;
 }
 
-@media screen and (max-width: 980px) {
+/*slider*/
+.slider {
+	margin-bottom: 50px;
+	position: relative;
+  overflow: hidden;
+	margin: auto;
+  width:100%;
+	border-top: 2px solid #CCC;
+	padding-top: 20px;
+}
+
+.slider img{
+	display: block;
+	padding-bottom: -10px;
+
+}
+.slider > img:checked {
+	transform:scale(2,2);
+	transform-origin:0 0;
+}
+
+.btnWrap{
+	position: relative;
+	left: 50%;
+	bottom:0;
+	transform: translate(-50%,0%);
 	
 	
+	background-color: rgba(255,255,255,0.6);
 	
+	
+}
+.sliderBtn {
+	border-radius: 50%;
+	height: 13px;
+	width: 13px;
+	padding: 0;
+	border: 1px solid #ccc ;
+	display:inline-block;
+	
+	
+}
+.sliderBtn:hover {
+ 	background-color: #555 !important; 
+	border: 1px solid #555;
+	cursor: pointer;
+}
+
+
+.sliderArrow{
+	border:2px solid;
+	border-color:transparent;
+	display: block;
+	position: absolute;
+	background-color: rgba(255,255,255,0.6);
+	height: 10%;
+	width: 5%;
+	margin: auto;
+	text-align: center;
+	padding: 0;
+	
+}
+
+.sliderArrow:hover{
+	cursor: pointer;
+}
+
+
+.saRight{
+	top:50%;
+	right:0;
+}
+
+.saLeft{
+	top:50%;
+	left:0;
+}
+
+/* image popup */
+#popup {
+width:100%;
+height:100%;
+opacity:.95;
+top:0;
+left:0;
+display:none;
+position:fixed;
+background-color:#313131;
+overflow:auto
 }

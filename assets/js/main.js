@@ -240,3 +240,7 @@ function placesOnClick(){
 	// subPlaces.style.display = 'block';
 
 }
+
+//test by justin
+		/* Act on the event */
+	

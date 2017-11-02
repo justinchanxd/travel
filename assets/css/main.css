@@ -218,7 +218,7 @@
 	}
 
 		html.is-touch #wrapper {
-			/*-webkit-backface-visibility: hidden;*/
+			-webkit-backface-visibility: hidden;
 			-webkit-overflow-scrolling: touch;
 			-webkit-transform: translate3d(0, 0, 0);
 			height: 100vh;
@@ -1885,9 +1885,10 @@ body #header{
 	.navbar {
 	position: fixed;
     top: 0px;
+	left: 0px;
     width: 100%;
-	 z-index: 999;
-	
+	z-index: 999;
+	-webkit-backface-visibility: hidden;
 }
 
 .navbar ul {

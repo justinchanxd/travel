@@ -220,7 +220,7 @@
 })(jQuery);
 
 
-//scroll top
+//scroll section (not work on mobile)
 // $(function() {
 //   $('a[href*=#]').on('click', function(e) {
 //     e.preventDefault();
@@ -241,8 +241,7 @@ function placesOnClick(){
 
 }
 
-//test by justin
-		/* Act on the event */
+// scroll directly workon mobile but nav bar not fixed
 	$('#onceClicked').click(function(e) {
     $(this).text('You clicked me!');
     var href = $(this).attr("href");

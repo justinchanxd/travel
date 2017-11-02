@@ -221,12 +221,12 @@
 
 
 //scroll top
-$(function() {
-  $('a[href*=#]').on('click', function(e) {
-    e.preventDefault();
-    $('html, body').animate({ scrollTop: $($(this).attr('href')).offset().top}, 500, 'linear');
-  });
-});
+// $(function() {
+//   $('a[href*=#]').on('click', function(e) {
+//     e.preventDefault();
+//     $('html, body').animate({ scrollTop: $($(this).attr('href')).offset().top}, 500, 'linear');
+//   });
+// });
 
 //navbar places onclick show submenu
 function placesOnClick(){
@@ -243,4 +243,8 @@ function placesOnClick(){
 
 //test by justin
 		/* Act on the event */
-	
+	$('#onceClicked').click(function(e) {
+    $(this).text('You clicked me!');
+    var href = $(this).attr("href");
+    $(href).show();
+});

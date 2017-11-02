@@ -1893,13 +1893,7 @@ body #header{
     width: 100%;
 	z-index: 999;
 	display: block;
-	transform: translateZ(0);
-    -moz-transform: translatez(0);
-    -ms-transform: translatez(0);
-    -o-transform: translatez(0);
-    -webkit-transform: translateZ(0);
-    -webkit-font-smoothing: antialiased;
-}
+	-webkit-transform: translate3d(0,0,0);
 
 .navbar ul {
 

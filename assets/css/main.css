@@ -1715,6 +1715,7 @@ body #header{
 
 		.navbar {
 			position: relative !important;
+			display: block !important;
 		}
 		/* Basic */
 

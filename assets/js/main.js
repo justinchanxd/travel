@@ -242,8 +242,7 @@ function placesOnClick(){
 }
 
 // scroll directly workon mobile but nav bar not fixed
-	$('#onceClicked').click(function(e) {
-    $(this).text('You clicked me!');
-    var href = $(this).attr("href");
-    $(href).show();
-});
+// 	$('#onceClicked').click(function(e) {
+//     var href = $(this).attr("href");
+//     $(href).show();
+// });

@@ -1892,6 +1892,7 @@ body #header{
 	left: 0px;
     width: 100%;
 	z-index: 999;
+	display: block;
 }
 
 .navbar ul {
@@ -1978,6 +1979,6 @@ $subPlaces li:hover > ul
 }
 
 #backTop {
-	color: black;
+	color: #333;
 	font-size: 1.5em;
 }

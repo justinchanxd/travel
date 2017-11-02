@@ -1976,3 +1976,8 @@ $subPlaces li:hover > ul
 .scroll-down {
 	color: black;
 }
+
+#backTop {
+	color: black;
+	font-size: 1.5em;
+}

@@ -597,3 +597,14 @@ position:fixed;
 background-color:#313131;
 overflow:auto
 }
+
+/* mobile version */
+@media screen and (max-width: 736px) {
+	#topic h1 {
+		font-size: 2em;
+	}
+	
+	#topic p {
+		font-size: 1em;
+	}
+}

@@ -1713,6 +1713,9 @@ body #header{
 			min-width:100%;
 		}
 
+		.navbar {
+			position: relative !important;
+		}
 		/* Basic */
 
 

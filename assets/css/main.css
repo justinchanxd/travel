@@ -1714,7 +1714,7 @@ body #header{
 		}
 
 		.navbar {
-			position: fixed !important;
+			position: relative !important;
 			display: block !important;
 		}
 		/* Basic */
@@ -1786,7 +1786,7 @@ body #header{
 			min-width:100%;
 		}
 		.navbar {
-			padding-top: 30px;
+			padding-top: 50px;
 		}
 		
 

@@ -1785,6 +1785,9 @@ body #header{
 		#subPlaces li {
 			min-width:100%;
 		}
+		.navbar {
+			padding-top: 30px;
+		}
 		/* List */
 
 			ul.actions {

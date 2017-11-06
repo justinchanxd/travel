@@ -1714,7 +1714,7 @@ body #header{
 		}
 
 		.navbar {
-			position: relative !important;
+			position: fixed !important;
 			display: block !important;
 		}
 		/* Basic */
@@ -1786,12 +1786,10 @@ body #header{
 			min-width:100%;
 		}
 		.navbar {
-			padding-top: 100px;
+			padding-top: 30px;
 		}
 		
-		#header {
-			padding-top: 100px !important;
-		}
+
 		/* List */
 
 			ul.actions {

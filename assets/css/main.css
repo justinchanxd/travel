@@ -1786,7 +1786,11 @@ body #header{
 			min-width:100%;
 		}
 		.navbar {
-			padding-top: 30px;
+			padding-top: 100px;
+		}
+		
+		#header {
+			padding-top: 100px !important;
 		}
 		/* List */
 

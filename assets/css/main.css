@@ -1562,18 +1562,28 @@ body #header{
 
 /* Footer */
 
+.actions {
+	margin-top: 10vh;
+}
+
+#footer form {
+	margin-top: 10vh;
+}
 	#footer {
 		min-height: 100vh;
 		padding: 0 0 12em 0;
 		position: relative;
-		text-align: center;
+		text-align: center;	
+		
 	}
 
 		#footer .container {
 			padding: 5em 2.5em 3em 2.5em ;
 			background: rgba(255, 255, 255, 0.95);
 			box-shadow: inset 0 1px 0 0 #dddddd;
+			min-height: 80vh;			
 		}
+
 
 		#footer footer {
 			bottom: 2em;

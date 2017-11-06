@@ -1562,15 +1562,18 @@ body #header{
 
 /* Footer */
 
+.uniform div {
+	margin-top: 2vh;
+}
 .actions {
-	margin-top: 10vh;
+	margin-top: 15vh;
 }
 
 #footer form {
 	margin-top: 10vh;
 }
 	#footer {
-		min-height: 100vh;
+		min-height: 110vh !important;
 		padding: 0 0 12em 0;
 		position: relative;
 		text-align: center;	
@@ -1801,9 +1804,12 @@ body #header{
 		
 
 		/* List */
-
+		#footer .container {
+			min-height: 100vh;
+		}
+		
 			ul.actions {
-				margin: 0 0 2em 0;
+/* 				margin: 1 0 2em 0; */
 			}
 
 				ul.actions li {
@@ -1886,6 +1892,10 @@ body #header{
 			#footer .container {
 				padding: 3em 1em 1em 1em ;
 			}
+		
+		.actions {
+	
+		}
 
 			#footer footer .copyright {
 				line-height: inherit;
